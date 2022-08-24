@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'category',
+    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -123,3 +124,5 @@ STATIC_ROOT = BASE_DIR /'static'
 STATICFILES_DIRS = [
     'greatkart/static',
 ]
+
+AUTH_USER_MODEL = 'accounts.Account'

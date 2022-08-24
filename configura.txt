@@ -30,3 +30,13 @@ STATICFILES_DIR = [
 ## Desde terminar copiar los collecstatic
 
 	python manage.py collecstatic
+
+
+
+
+
+##BORRAR LA BASE Y LAS MIGRACIONES
+	#Hacer makemigrations, migrate
+
+## Crear desde terminal super user
+	winpty python manage.py createsuperuser
