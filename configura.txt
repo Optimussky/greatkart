@@ -1,0 +1,17 @@
+
+
+## Crear el directorio static
+	agregar los archivos
+	css, js, imgs
+
+## Desde el archivo settings agregar al final
+
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR /'static'
+STATICFILES_DIR = [
+    'greatkart/static',
+]
+
+## Desde terminar copiar los collecstatic
+
+	python manage.py collecstatic
