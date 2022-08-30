@@ -1,5 +1,9 @@
 
 
+
+user
+nuevouser1.
+
 echo "# greatkart" >> README.md
 git init
 git add README.md
@@ -14,6 +18,13 @@ git remote add origin https://github.com/Optimussky/greatkart.git
 git branch -M main
 git push -u origin main
 
+
+
+
+
+## INSTALAR PILLOW FORZANDO A INSTALARSE
+	python3 -m pip install --upgrade pip
+	python3 -m pip install --upgrade Pillow
 
 ## Crear el directorio static
 	agregar los archivos
